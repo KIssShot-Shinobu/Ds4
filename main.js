@@ -96,7 +96,7 @@ conn.handler = async function (m) {
         }
       } else global.DATABASE._data.users[m.sender] = {
         exp: 0,
-        limit: 20,
+        limit: 5,
         lastclaim: 0,
         registered: false,
         name: conn.getName(m.sender),
