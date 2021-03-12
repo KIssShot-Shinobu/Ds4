@@ -24,6 +24,5 @@ handler.help = ['limit <jumlah>']
 handler.tags = ['owner']
 handler.command = /^limit$/i
 handler.owner = true
-handler.mods = true
 
 module.exports = handler
