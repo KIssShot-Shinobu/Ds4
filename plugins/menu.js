@@ -35,22 +35,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let totalreg = Object.keys(global.DATABASE._data.users).length
     let tags = {
       'main': 'Main',
-      'info': 'Info BOT',
-      'xp': 'Exp & Limit',
-      'sticker': 'Sticker',
-      'kerang': 'Kerang Ajaib',
-      'quotes': 'Quotes',
-      'admin': 'Admin',
-      'group': 'Group',
-      'internet': 'Internet',
-      'downloader': 'Downloader',
-      'tools': 'Tools',
-      'fun': 'Fun',
-      'jadibot': 'Jadi Bot',
-      'owner': 'Owner',
-      'host': 'Host',
-      'advanced': 'Advanced',
-      '': 'No Category',
+      'sticker': 'Sticker'
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -85,25 +70,15 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Database : %totalreg Nomor
 ╰═══════════════
 
-╭════•›「 Sosmed 」
+╭════•›「 Duel Standby 」
 ╿ Github :
-╿ https://github.com/Arya274/Arya-BOT4
-╿ Youtube : Drawl Nag
-╿ Instagram : @arpunchs
-╰═══════════════
-
-╭════•›「 Rules 」
-╿• Telpon/VC = BAN/BLOKIR
-╿• Spam = BLOKIR
-╿• Ingin Donasi ?
-╿    => Hubungi #creator
 ╰═══════════════
 
 %readmore`
     let header = conn.menu.header || '╭════•›「 %category 」'
     let body   = conn.menu.body   || ' ╿ %cmd%islimit'
     let footer = conn.menu.footer || '╰══════════\n'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\nBOT NFQ: ${global.conn.user.jid.split`@`[0]}`) + `\n*RECODE: DRAWL NAG*\nDEVELOPER: *@Nurutomo*`
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\nBOT NFQ: ${global.conn.user.jid.split`@`[0]}`) + `\n*RECODE: MB*\nDEVELOPER: *@Nurutomo*`
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
