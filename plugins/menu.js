@@ -35,7 +35,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let totalreg = Object.keys(global.DATABASE._data.users).length
     let tags = {
       'utama': 'Main',
-      'sticker': 'Sticker'
+      'tool': 'Tools'
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -71,7 +71,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╰═══════════════
 
 ╭════•›「 Duel Standby 」
-╿ Instagram :
+╿ Instagram : official_duelstandby
 ╰═══════════════
 
 %readmore`
