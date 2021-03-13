@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, args }) => {
 handler.help = ['ss', 'ssf'].map(v => v + ' <url>')
 handler.tags = ['internet']
 handler.command = /^ss(web)?f?$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
