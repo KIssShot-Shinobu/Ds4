@@ -9,7 +9,6 @@ let handler = async (m, { conn, text }) => {
   let txt = text.replace('@' + who.split`@`[0], '').trim()
   if (isNaN(txt)) throw 'Hanya angka'
   let limit = parseInt(txt)
-  limit += pjk
   if (limit < 1) throw 'Minimal 1'
   let users = global.DATABASE._data.users
   if (limit > users[m.sender].Limit) throw 'Limit tidak mencukupi untuk mentransfer'
