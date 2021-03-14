@@ -1,5 +1,5 @@
 let { MessageType } = require('@adiwajshing/baileys')
-let pajak = 0.02
+let pjk = 0.02
 let handler = async (m, { conn, text }) => {
   if (!text) throw 'Masukkan jumlah limit yang akan diberi'
   let who
