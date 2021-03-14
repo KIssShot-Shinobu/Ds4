@@ -18,9 +18,9 @@ dan silahkan PM kontak berikut :
 
 `.trim(), m)
 }
-handler.help = ['murothal']
-handler.tags = ['quotes']
-handler.command = /^(murothal)$/i
+handler.help = ['join']
+handler.tags = ['']
+handler.command = /^(join)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
