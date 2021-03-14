@@ -239,7 +239,7 @@ conn.handler = async function (m) {
           console.log(e)
           if (e) m.reply(util.format(e))
         } finally {
-          if (m.limit) m.reply(+ m.limit + ' Limit terpakai, mangkane ojok nyepam isok ae" boros paketan')
+          if (m.limit) m.reply(+ m.limit + ' Limit terpakai,')
         }
   			break
   		}
