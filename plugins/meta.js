@@ -1,5 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, args }) => {
+  let full = 'https://www.duellinksmeta.com/tier-list/'
   let url = 'https://www.duellinksmeta.com/tier-list/'
   let ss = await (await fetch(global.API('nrtm', '/api/ssweb', { delay: 1000, url, full }))).buffer()
   conn.sendFile(m.chat, ss, 'screenshot.png', url, m)
