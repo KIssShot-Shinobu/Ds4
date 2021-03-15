@@ -22,7 +22,7 @@ Perlu diperhatikan untuk jadwal pemilihan Leader sebagai berikut :
 handler.help = ['lead']
 handler.tags = ['']
 handler.command = /^(lead)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
