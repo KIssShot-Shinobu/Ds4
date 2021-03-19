@@ -9,11 +9,11 @@ let handler  = async (m, { conn, text }) => {
 handler.help = ['attp <teks>']
 handler.tags = ['sticker']
 handler.command = /^attp$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
-handler.private = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
