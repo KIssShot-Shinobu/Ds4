@@ -50,7 +50,7 @@ Aturan Room:
 handler.help = ['kaisar']
 handler.tags = ['']
 handler.command = /^(kaisar)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
