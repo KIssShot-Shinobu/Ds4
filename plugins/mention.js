@@ -8,6 +8,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['mention <teks>']
 handler.tags = ['tools']
+handler.owner = true
 
 handler.command = /^mentiin$/i
 
