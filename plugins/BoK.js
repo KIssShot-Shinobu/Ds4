@@ -8,8 +8,8 @@ Tgl 24 - 25 Maret 2021
 Waktu duel mulai pkl 20.00 WIB 
 
  Reward :
- 1st 350K
- 2nd 150K
+ 1st 350 GPC
+ 2nd 150 GPC
 
 Pendaftaran:
 1. Biaya pendaftaran gratis.
