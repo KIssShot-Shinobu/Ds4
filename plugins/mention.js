@@ -10,6 +10,6 @@ handler.help = ['mention <teks>']
 handler.tags = ['tools']
 handler.owner = true
 
-handler.command = /^mentiin$/i
+handler.command = /^mention$/i
 
 module.exports = handler
