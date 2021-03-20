@@ -17,7 +17,7 @@ Pendaftaran:
 3. Slot max 128
 4. Wajib join discord DS dan menggunakan nama sesuai nama Samsh.gg https://discord.gg/dbsruDT8s2
 5. Akhir pendaftaran  19:30 24-03-2021
-6. Link pendaftaran : 
+6. Link pendaftaran : https://bit.ly/3lAoi2Q
 7. Jika pendaftar sudah mencapain 128 selanjutnya akan masuk waiting list 
 
 
