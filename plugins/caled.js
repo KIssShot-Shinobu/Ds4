@@ -20,9 +20,9 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 
 }
 
-handler.help = ['anime']
-handler.tags = ['tools']
-handler.command = /^(anime)$/i
+handler.help = ['caled']
+handler.tags = ['']
+handler.command = /^(caled)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
