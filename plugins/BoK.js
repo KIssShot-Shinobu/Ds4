@@ -16,9 +16,13 @@ Pendaftaran:
 2. Umum
 3. Slot max 128
 4. Wajib join discord DS dan menggunakan nama sesuai nama Samsh.gg https://discord.gg/dbsruDT8s2
-5. Akhir pendaftaran  19:30 24-03-2021
-6. Link pendaftaran : https://bit.ly/3lAoi2Q
-7. Jika pendaftar sudah mencapain 128 selanjutnya akan masuk waiting list 
+5. Wajib join WA grup General DS : https://chat.whatsapp.com/GDFDG1pIBoVFKH6szw2BEH
+6. Akhir pendaftaran  19:30 24-03-2021
+7. Link pendaftaran : https://bit.ly/3lAoi2Q
+8. Jika pendaftar sudah mencapain 128 selanjutnya akan masuk waiting list 
+9. tournament dilakukan di Discord server DS dan menggunakan smash.gg 
+10. regis samsh.gg oleh panitia
+11.bila tidak bisa di tag di discord DS akan di DQ
 
 
 Format:
