@@ -1,6 +1,6 @@
 let PhoneNumber = require('awesome-phonenumber')
 let handler = async (m, { conn }) => {
-  let pp = './src/avatar_contact.png'
+  let pp = 'https://images5.alphacoders.com/925/925130.png'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
     pp = await conn.getProfilePicture(who)
