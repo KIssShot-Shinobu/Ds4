@@ -1,30 +1,20 @@
 let PhoneNumber = require('awesome-phonenumber')
 let handler = async (m, { conn }) => {
-  let pp = 'https://images5.alphacoders.com/925/925130.png'
+  let pp = 'https://drive.google.com/open?id=1NPfL14PZiGzFC4zFRhBZTi2hihDGk91x'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
-    pp = await conn.getProfilePicture( 'https://images5.alphacoders.com/925/925130.png')
+    pp = await conn.getProfilePicture('https://drive.google.com/open?id=1NPfL14PZiGzFC4zFRhBZTi2hihDGk91x')
   } catch (e) {
 
   } finally {
     let name = conn.getName(who)
-    let about = (await conn.getStatus(who)).status
-    let { limit, exp, lastclaim } = global.DATABASE.data.users[m.sender]
-    let str = `
-Name: ${name} (@${who.replace(/@.+/, '')})
-About: ${about}
-Number: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-Link: https://wa.me/${who.split`@`[0]}
-XP: ${exp}
-Limit: ${limit}
-Last Claim: ${new Date(lastclaim)}
-`.trim()
+    let about = (await conn.getStatus('Membangun, Mengayomi, dan berkontribusi bersama-sama membangun Guild DS untuk menjadi lebih baik di Kompetisi Nasional dan Internasional. Serta mempererat tali silahturahmi dan keharmonisan antara member DS.'))
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
+hendler.owner = true
 handler.help = ['profile [@user]']
-handler.tags = ['tools']
+handler.tags = ['']
 handler.command = /^profile$/i
 module.exports = handler
-
