@@ -23,8 +23,8 @@ Last Claim: ${new Date(lastclaim)}
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
-handler.help = ['profile [@user]']
-handler.tags = ['tools']
-handler.command = /^profile$/i
+handler.help = ['tes [@user]']
+handler.tags = ['']
+handler.command = /^tes$/i
 module.exports = handler
 
