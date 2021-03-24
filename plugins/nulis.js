@@ -10,7 +10,7 @@ let handler  = async (m, { conn, args }) => {
   let d = new Date
   let tgl = d.toLocaleDateString('id-Id')
   let hari = d.toLocaleDateString('id-Id', { weekday: 'long' })
-  let teks = args.join` `
+  let teks = args.join` kha kha kha `
   // conn.reply(m.chat, util.format({fontPath, inputPath, outputPath, tgl, hari, teks}), m)
   spawn('convert', [
     inputPath,
