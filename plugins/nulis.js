@@ -11,7 +11,7 @@ let handler  = async (m, { conn, args }) => {
   let tgl = d.toLocaleDateString('id-Id')
   let hari = d.toLocaleDateString('id-Id', { weekday: 'long' })
   let teks = args.join` `
-  conn.reply(m.chat, util.format({fontPath, inputPath, outputPath, tgl, hari, teks}), m)
+  // conn.reply(m.chat, util.format({fontPath, inputPath, outputPath, tgl, hari, teks}), m)
   spawn('convert', [
     inputPath,
     '-font',
@@ -51,7 +51,7 @@ let handler  = async (m, { conn, args }) => {
   ])
   .on('error', e => conn.reply(m.chat, util.format(e), m))
   .on('exit', () => {
-    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Nihh cuk.. tulisanmu. Mager Lu?\n Instagram: @arpunchs', m)
+    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Nihhh cuk... Tulisanmu. Awas ketauan emak:v\n *Instagram* : @ff.kelvin15' , m)
   })
 }
 handler.help = ['n'].map(v => v + 'ulis <teks>')
