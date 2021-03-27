@@ -33,6 +33,7 @@ User kamu Dibawah 👇
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['exp']
+hendler.private = true
 
 handler.command = /^(daftar|reg(ister)?)$/i
 
