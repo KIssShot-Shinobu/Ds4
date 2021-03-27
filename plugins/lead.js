@@ -13,7 +13,7 @@ Perlu diperhatikan untuk jadwal pemilihan Leader sebagai berikut :
 
 - 13 Maret 2021 - 27 Maret 2021 untuk melakukan kampanye di grup Internal DS
 
-- tgl 28- 31 maret vote new lead 
+- tgl 28 - 29 maret vote new lead 
 
 - 31 Maret 2021 Leader periode VII resmi diumumkan.
 
